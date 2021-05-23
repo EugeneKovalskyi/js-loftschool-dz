@@ -1,0 +1,13 @@
+{
+  "name": "vp1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "start": "node index.html"
+  },
+  "author": "EugeneKovalskyi <tarantul.battlefield@gmail.com>",
+  "license": "ISC"
+}

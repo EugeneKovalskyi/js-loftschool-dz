@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Friends List</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div id="container">
+      <header>
+        <h2 class="title">Select friends</h2>
+      </header>
+      <main>
+        <table>
+          <tr>
+            <th>
+              <input
+                class="search-input left-search"
+                type="text"
+                placeholder="Search friend"
+                data-list="left"
+              />
+            </th>
+            <th>
+              <input
+                class="search-input right-search"
+                type="text"
+                placeholder="Search friend"
+                data-list="right"
+              />
+            </th>
+          </tr>
+        </table>
+        <div class="flex-div">
+          <ul class="left-list drop-list" data-list="left"></ul>
+          <ul class="right-list drop-list" data-list="right"></ul>
+        </div>
+      </main>
+
+      <footer>
+        <button class="save-btn">Save</button>
+      </footer>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
